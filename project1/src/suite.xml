@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="Tests" thread-count="4">
+  <test name="Test1">
+  <parameter name="google" value="firefox"/>
+  <parameter name="searchword" value="Saibaba"/>
+    <classes>
+      <class name="testngframework.SuiteDataProvider"/>
+    </classes>
+    </test>
+    <test name="Test2">
+     <parameter name="google" value="firefox"/>
+  <parameter name="searchword" value="Sachin"/>
+    <classes>
+      <class name="testngframework.SuiteDataProvider"/>
+    </classes>
+  </test> 
+  <test name="Test3">
+  <parameter name="bing" value="firefox"/>
+  <parameter name="searchword" value="Powerstar"/>
+    <classes>
+      <class name="testngframework.SuiteDataProvider"/>
+    </classes>
+  </test>
+  <test name="Test4">
+  <parameter name="bing" value="firefox"/>
+  <parameter name="searchword" value="golden retriever"/>
+    <classes>
+      <class name="testngframework.SuiteDataProvider"/>
+    </classes>
+  </test>
+
+</suite> 
+
